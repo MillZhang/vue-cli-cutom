@@ -32,7 +32,10 @@ module.exports = {
       'vue$': 'vue/dist/vue.common.js',
       'src': resolve('src'),
       'assets': resolve('src/assets'),
-      'components': resolve('src/components')
+      'components': resolve('src/components'),
+      'jsPath':resolve('src/assets/js'),
+      'service':resolve('src/service'),
+      'manage':resolve('src/manage')
     }
   },
   module: {
